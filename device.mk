@@ -83,12 +83,10 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    libnfc-nci \
-    libnfc_nci_jni \
-    nfc_nci.klte \
+    com.android.nfc_extras \
     NfcNci \
-    Tag \
-    com.android.nfc_extras
+    nfc_nci.msm8974 \
+    Tag
 
 # NFC Config Files
 PRODUCT_COPY_FILES += \
